@@ -1,0 +1,49 @@
+/* .btn-primary {
+  display: inline-block;
+  background-color: #EC1A23;
+  padding: 16px 36px;
+  border-radius: 50px;
+  color: white;
+} */
+
+  .btn-primary {
+    background-color: #EC1A23;
+    border: 0 solid #E5E7EB;
+    box-sizing: border-box;
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+    justify-content: center;
+    line-height: 1.75rem;
+    padding: .75rem 1.65rem;
+    position: relative;
+    text-align: center;
+    text-decoration: none white solid;
+    text-decoration-thickness: auto;
+    width: 100%;
+    max-width: 460px;
+    cursor: pointer;
+    transform: rotate(-2deg);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+
+  .btn-primary:focus {
+    outline: 0;
+  }
+
+  .btn-primary:after {
+    content: '';
+    position: absolute;
+    border: 1px solid white;
+    bottom: 4px;
+    left: 4px;
+    width: calc(100% - 1px);
+    height: calc(100% - 1px);
+  }
+
+  .btn-primary:hover:after {
+    bottom: 2px;
+    left: 2px;
+  }

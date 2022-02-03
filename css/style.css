@@ -1,0 +1,20 @@
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* Utilities */
+body {
+  font-family: 'Didact Gothic', sans-serif;
+  font-weight: bold;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Didact Gothic', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
